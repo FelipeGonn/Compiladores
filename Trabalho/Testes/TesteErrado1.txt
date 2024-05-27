@@ -1,0 +1,2 @@
+áVariavel = "string";
+9a = 10;

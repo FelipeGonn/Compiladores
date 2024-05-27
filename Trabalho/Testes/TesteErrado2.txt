@@ -1,0 +1,5 @@
+a = 10;
+b = 20;
+
+print("Esse print ta com o comando errado");
+print(a + b);

@@ -1,0 +1,18 @@
+a = 10 + 20;
+b = 10 - 20;
+c = 10 / 20;
+d = 10 * 20;
+e = a + b;
+f = c * d;
+
+EssaMistura(a < 10){
+    EstaDoSeuAgrado("a eh menor que 10");
+}
+
+EssaMistura(a < 10){
+    EstaDoSeuAgrado("a eh menor que 10");
+} NaoDeuCerto EssaMistura (a > 10){
+    EstaDoSeuAgrado("a eh maior que 10");
+} NaoDeuCerto{
+    EstaDoSeuAgrado(a);
+}

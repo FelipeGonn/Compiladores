@@ -1,0 +1,32 @@
+Command     - LanguageWord          - TokenReturned
+print       - EstaDoSeuAgrado       - TOK_PRINT
+scanf       - EuTeOuco              - TOK_SCAN
+if          - EssaMistura           - TOK_IF
+else        - NaoDeuCerto           - TOK_ELSE
+while       - EstouACaminho         - TOK_FOR
+break       - JaEraHora             - TOK_BREAK
+True        - Mexer                 - TOK_TRUE
+False       - NaoMexer              - TOK_FALSE
+AND         - MisturarMisturar      - TOK_AND
+OR          - GirarMexer            - TOK_OR
+==          - ==                    - TOK_EQUAL
+!=          - !=                    - TOK_GAP
+>           - >                     - >
+<           - <                     - <
+
+
+Types:
+char:        \"[a-zA-Z_0-9]\"
+string:      \"[a-zA-Z_0-9' ']\"
+float:       [0-9]+\.[0-9]*
+int:         [0-9]+
+true:        Mexer
+false:       NaoMexer
+ident (var)  [a-zA-Z_][a-zA-Z0-9_]*
+print:       EstaDoSeuAgrado(var);
+print:       EstaDoSeuAgrado(string);
+scanf:       EuTeOuco(var);
+while:       EstouACaminho(condition);
+break:       JaEraHora;
+if:          EssaMistura((condition));
+else:        NaoDeuCerto((condition));

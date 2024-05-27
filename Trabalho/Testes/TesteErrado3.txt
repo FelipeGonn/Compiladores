@@ -1,0 +1,6 @@
+a = 10;
+_b = 20;
+
+EstouACaminho (a != ){
+    EstaDoSeuAgrado ("usou os operadores certos?");
+}

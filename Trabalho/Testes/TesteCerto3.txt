@@ -1,0 +1,8 @@
+_a = "a";
+b = "string";
+c = "string com espaco";
+
+EstaDoSeuAgrado(_a);
+EstaDoSeuAgrado(b);
+EstaDoSeuAgrado(c);
+EstaDoSeuAgrado("print com string_");

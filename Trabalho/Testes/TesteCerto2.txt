@@ -1,0 +1,17 @@
+a = 10.5;
+b = 20.;
+c = 0;
+d = NaoMexer;
+
+EstaDoSeuAgrado("Insira um valor");
+EuTeOuco(c);
+
+EstouACaminho(c != a ){
+    EssaMistura ((c == b GirarMexer c == a)){
+        d = Mexer;
+    }
+    EssaMistura ((d == Mexer MisturarMisturar c == b)){
+        EstaDoSeuAgrado(c);
+        JaEraHora;
+    }
+}
